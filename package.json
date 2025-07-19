@@ -1,0 +1,47 @@
+{
+  "name": "borikua-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts celebrating Puerto Rican culture, resistance, and solidarity",
+  "author": "Jazmin",
+  "license": "MIT",
+  "scripts": {
+    "test": "forge test",
+    "test:verbose": "forge test -vv",
+    "build": "forge build",
+    "clean": "forge clean",
+    "deploy:local": "forge script script/Deploy.s.sol --rpc-url http://localhost:8545 --broadcast",
+    "deploy:base": "forge script script/Deploy.s.sol --rpc-url base_mainnet --broadcast --verify",
+    "deploy:prflag": "forge script script/DeployPRFlag.s.sol --rpc-url base_mainnet --broadcast --verify"
+  },
+  "keywords": [
+    "puerto-rico",
+    "puerto-rican", 
+    "boricua",
+    "borikua",
+    "boriken",
+    "taino",
+    "taíno",
+    "resistance",
+    "solidarity",
+    "culture",
+    "solidity",
+    "smart-contracts",
+    "base-blockchain",
+    "ethereum",
+    "defi",
+    "nft",
+    "blockchain",
+    "web3",
+    "caribbean",
+    "latin-america",
+    "indigenous"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/borikua-contracts.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+EOF < /dev/null
