@@ -68,4 +68,3 @@ The black Puerto Rican flag represents:
 ---
 
 **¡Hasta la victoria siempre\!** ✊🏽🇵🇷
-EOF
