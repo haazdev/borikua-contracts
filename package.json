@@ -1,7 +1,7 @@
 {
-  "name": "borikua-contracts",
+  "name": "ase-community-protocol",
   "version": "1.0.0",
-  "description": "Smart contracts celebrating Puerto Rican culture, resistance, and solidarity",
+  "description": "Decentralized protocol for spiritual labor recognition and community mutual aid",
   "author": "",
   "license": "MIT",
   "scripts": {
