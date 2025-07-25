@@ -2,7 +2,7 @@
   "name": "borikua-contracts",
   "version": "1.0.0",
   "description": "Smart contracts celebrating Puerto Rican culture, resistance, and solidarity",
-  "author": "Jazmin",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "test": "forge test",
