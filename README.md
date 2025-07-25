@@ -113,7 +113,7 @@ First blockchain protocol to tokenize and recognize:
 ## 📊 Technical Metrics
 
 - **Networks**: 5 (Ethereum, Optimism, Base, Celo, Superposition)
-- **Contracts**: 12+ verified deployments
+- **Contracts**: 5 core contracts with multiple network deployments
 - **Test Coverage**: 95%+ with comprehensive edge cases
 - **Gas Efficiency**: 40% reduction through optimization
 - **Security**: OpenZeppelin standards with custom enhancements
