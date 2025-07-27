@@ -7,12 +7,12 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 /**
- * @title Superchain Streaming Hub
+ * @title Streaming Hub
  * @notice Real-time payment streaming for community funding
  * @dev Simplified streaming without Superfluid dependencies
- * @author haaz.eth
+ * @author Community DeFi Protocol
  */
-contract SuperchainStreaming is AccessControl, ReentrancyGuard, Pausable {
+contract StreamingHub is AccessControl, ReentrancyGuard, Pausable {
     
     // =============================================================
     //                        STRUCTS

@@ -144,7 +144,7 @@ function withdrawFromStream(bytes32 streamId)
 ### Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/haazdev/community-defi-protocol.git
+git clone https://github.com/[your-org]/community-defi-protocol.git
 cd community-defi-protocol
 
 # Install dependencies
@@ -234,8 +234,8 @@ contract YourContract {
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Security Contact**: security@community-defi-protocol.org  
-**General Contact**: hello@community-defi-protocol.org
+**Security Contact**: Open an issue with [SECURITY] tag  
+**General Contact**: Open an issue or discussion
 
 ---
 

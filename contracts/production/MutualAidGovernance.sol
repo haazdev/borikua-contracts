@@ -6,12 +6,12 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Pausable.sol";
 
 /**
- * @title Solidarity Circles
+ * @title Mutual Aid Governance
  * @notice Decentralized mutual aid governance and coordination
  * @dev Implements consent-based decision making for community support
- * @author haaz.eth
+ * @author Community DeFi Protocol
  */
-contract SolidarityCircles is AccessControl, ReentrancyGuard, Pausable {
+contract MutualAidGovernance is AccessControl, ReentrancyGuard, Pausable {
     
     // =============================================================
     //                        STRUCTS

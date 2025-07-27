@@ -7,13 +7,13 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Pausable.sol";
 
 /**
- * @title Asé Community Token
+ * @title Community Token
  * @notice ERC-20 token for recognizing spiritual labor and coordinating mutual aid
  * @dev Implements community features with security best practices
- * @author haaz.eth
+ * @author Community DeFi Protocol
  * @custom:version 1.0
  */
-contract AseToken is ERC20, AccessControl, ReentrancyGuard, Pausable {
+contract CommunityToken is ERC20, AccessControl, ReentrancyGuard, Pausable {
     
     // =============================================================
     //                        ROLES
@@ -70,7 +70,7 @@ contract AseToken is ERC20, AccessControl, ReentrancyGuard, Pausable {
     //                        CONSTRUCTOR
     // =============================================================
     
-    constructor() ERC20(unicode"Asé Community Token", unicode"ASÉ") {
+    constructor() ERC20(unicode"Community Token", unicode"COMM") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(SPIRITUAL_TREASURY_ROLE, msg.sender);
         _grantRole(COMMUNITY_ORGANIZER_ROLE, msg.sender);
